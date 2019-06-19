@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		80D24D1C22BA54DF0080D58A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D24D1B22BA54DF0080D58A /* AppDelegate.swift */; };
-		80D24D1E22BA54DF0080D58A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D24D1D22BA54DF0080D58A /* ViewController.swift */; };
-		80D24D2122BA54DF0080D58A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D24D1F22BA54DF0080D58A /* Main.storyboard */; };
 		80D24D2322BA54E30080D58A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D24D2222BA54E30080D58A /* Assets.xcassets */; };
 		80D24D2622BA54E30080D58A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D24D2422BA54E30080D58A /* LaunchScreen.storyboard */; };
+		80D24D2E22BA5B510080D58A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D24D2D22BA5B510080D58A /* Main.storyboard */; };
+		80D24D3022BA5D050080D58A /* AlbumListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D24D2F22BA5D050080D58A /* AlbumListTableViewController.swift */; };
+		80D24D3322BA5D260080D58A /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D24D3222BA5D260080D58A /* Photos.framework */; };
+		80D24D3522BA5D940080D58A /* AssetGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D24D3422BA5D940080D58A /* AssetGridViewController.swift */; };
+		80D24D3822BA5DB90080D58A /* AssetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D24D3622BA5DB90080D58A /* AssetViewController.swift */; };
+		80D24D3922BA5DB90080D58A /* GridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D24D3722BA5DB90080D58A /* GridViewCell.swift */; };
+		80D24D3F22BA77CD0080D58A /* tickMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D24D3E22BA77CD0080D58A /* tickMark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80D24D1822BA54DF0080D58A /* MultiImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D24D1B22BA54DF0080D58A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80D24D1D22BA54DF0080D58A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		80D24D2022BA54DF0080D58A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80D24D2222BA54E30080D58A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80D24D2522BA54E30080D58A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80D24D2722BA54E30080D58A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D24D2D22BA5B510080D58A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		80D24D2F22BA5D050080D58A /* AlbumListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListTableViewController.swift; sourceTree = "<group>"; };
+		80D24D3222BA5D260080D58A /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		80D24D3422BA5D940080D58A /* AssetGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetGridViewController.swift; sourceTree = "<group>"; };
+		80D24D3622BA5DB90080D58A /* AssetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetViewController.swift; sourceTree = "<group>"; };
+		80D24D3722BA5DB90080D58A /* GridViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewCell.swift; sourceTree = "<group>"; };
+		80D24D3E22BA77CD0080D58A /* tickMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tickMark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D24D3322BA5D260080D58A /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,7 @@
 			children = (
 				80D24D1A22BA54DF0080D58A /* MultiImagePicker */,
 				80D24D1922BA54DF0080D58A /* Products */,
+				80D24D3122BA5D260080D58A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +66,26 @@
 		80D24D1A22BA54DF0080D58A /* MultiImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				80D24D3E22BA77CD0080D58A /* tickMark.png */,
 				80D24D1B22BA54DF0080D58A /* AppDelegate.swift */,
-				80D24D1D22BA54DF0080D58A /* ViewController.swift */,
-				80D24D1F22BA54DF0080D58A /* Main.storyboard */,
+				80D24D2F22BA5D050080D58A /* AlbumListTableViewController.swift */,
+				80D24D3422BA5D940080D58A /* AssetGridViewController.swift */,
+				80D24D3622BA5DB90080D58A /* AssetViewController.swift */,
+				80D24D3722BA5DB90080D58A /* GridViewCell.swift */,
+				80D24D2D22BA5B510080D58A /* Main.storyboard */,
 				80D24D2222BA54E30080D58A /* Assets.xcassets */,
 				80D24D2422BA54E30080D58A /* LaunchScreen.storyboard */,
 				80D24D2722BA54E30080D58A /* Info.plist */,
 			);
 			path = MultiImagePicker;
+			sourceTree = "<group>";
+		};
+		80D24D3122BA5D260080D58A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80D24D3222BA5D260080D58A /* Photos.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +146,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D24D2E22BA5B510080D58A /* Main.storyboard in Resources */,
+				80D24D3F22BA77CD0080D58A /* tickMark.png in Resources */,
 				80D24D2622BA54E30080D58A /* LaunchScreen.storyboard in Resources */,
 				80D24D2322BA54E30080D58A /* Assets.xcassets in Resources */,
-				80D24D2122BA54DF0080D58A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +160,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D24D1E22BA54DF0080D58A /* ViewController.swift in Sources */,
+				80D24D3522BA5D940080D58A /* AssetGridViewController.swift in Sources */,
+				80D24D3922BA5DB90080D58A /* GridViewCell.swift in Sources */,
 				80D24D1C22BA54DF0080D58A /* AppDelegate.swift in Sources */,
+				80D24D3022BA5D050080D58A /* AlbumListTableViewController.swift in Sources */,
+				80D24D3822BA5DB90080D58A /* AssetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		80D24D1F22BA54DF0080D58A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80D24D2022BA54DF0080D58A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		80D24D2422BA54E30080D58A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,7 +302,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 58276BW4M9;
 				INFOPLIST_FILE = MultiImagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +311,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Nouman.MultiImagePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SwordPPDeFiles;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,7 +321,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MultiImagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +330,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Nouman.MultiImagePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
