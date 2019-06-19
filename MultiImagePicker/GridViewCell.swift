@@ -11,7 +11,7 @@ import UIKit
 
 public protocol GridViewCellProtocol {
     
-    var isSelected: Bool { get set}
+//    var isSelected: Bool { get set}
     
 
 }
@@ -35,16 +35,16 @@ class GridViewCell: UICollectionViewCell {
         }
     }
     
-    open override var isSelected: Bool {
-        didSet {
-            print("isSelected")
-            tickMarkView.isHidden = !isSelected
-        }
-    }
+//    open override var isSelected: Bool {
+//        didSet {
+//            tickMarkView.isHidden = !isSelected
+//        }
+//    }
     
     override func prepareForReuse() {
         super.prepareForReuse()
         imageView.image = nil
         livePhotoBadgeImageView.image = nil
+        tickMarkView.image = nil
     }
 }

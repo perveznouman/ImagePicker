@@ -124,6 +124,13 @@ class AssetGridViewController: UICollectionViewController {
         return cell
     }
     
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("DidSelect")
+        
+        let cell = collectionView.cellForItem(at: indexPath) as? GridViewCell
+        cell?.tickMarkView.isHidden = !(cell?.tickMarkView.isHidden)!
+    }
+    
     // MARK: UIScrollView
     
     override func scrollViewDidScroll(_ scrollView: UIScrollView) {
